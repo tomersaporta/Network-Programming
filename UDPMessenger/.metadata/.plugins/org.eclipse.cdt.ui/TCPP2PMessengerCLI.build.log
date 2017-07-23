@@ -1,0 +1,15 @@
+18:07:23 **** Build of configuration Debug for project TCPP2PMessengerCLI ****
+make all 
+Building file: ../src/TCPP2PMessengerCLI.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Web_developer/lab7/TCPP2PMessenger/src" -I"/home/user/Web_developer/lab7/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TCPP2PMessengerCLI.d" -MT"src/TCPP2PMessengerCLI.o" -o "src/TCPP2PMessengerCLI.o" "../src/TCPP2PMessengerCLI.cpp"
+Finished building: ../src/TCPP2PMessengerCLI.cpp
+ 
+Building target: TCPP2PMessengerCLI
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Web_developer/lab7/TCPP2PMessenger/Debug" -L"/home/user/Web_developer/lab7/SocketUtils/Debug" -pthread -o "TCPP2PMessengerCLI"  ./src/TCPP2PMessengerCLI.o   -lTCPP2PMessenger -lSocketUtils
+Finished building target: TCPP2PMessengerCLI
+ 
+
+18:07:24 Build Finished (took 1s.531ms)
+

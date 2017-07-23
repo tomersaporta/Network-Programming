@@ -1,0 +1,31 @@
+18:07:19 **** Build of configuration Debug for project TCPP2PMessenger ****
+make all 
+Building file: ../src/TCPP2PClient.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Web_developer/lab7/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TCPP2PClient.d" -MT"src/TCPP2PClient.o" -o "src/TCPP2PClient.o" "../src/TCPP2PClient.cpp"
+Finished building: ../src/TCPP2PClient.cpp
+ 
+Building file: ../src/TCPP2PMessenger.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Web_developer/lab7/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TCPP2PMessenger.d" -MT"src/TCPP2PMessenger.o" -o "src/TCPP2PMessenger.o" "../src/TCPP2PMessenger.cpp"
+Finished building: ../src/TCPP2PMessenger.cpp
+ 
+Building file: ../src/TCPP2PServer.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Web_developer/lab7/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TCPP2PServer.d" -MT"src/TCPP2PServer.o" -o "src/TCPP2PServer.o" "../src/TCPP2PServer.cpp"
+Finished building: ../src/TCPP2PServer.cpp
+ 
+Building file: ../src/TPMessengerListener.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Web_developer/lab7/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TPMessengerListener.d" -MT"src/TPMessengerListener.o" -o "src/TPMessengerListener.o" "../src/TPMessengerListener.cpp"
+Finished building: ../src/TPMessengerListener.cpp
+ 
+Building target: libTCPP2PMessenger.a
+Invoking: GCC Archiver
+ar -r  "libTCPP2PMessenger.a"  ./src/TCPP2PClient.o ./src/TCPP2PMessenger.o ./src/TCPP2PServer.o ./src/TPMessengerListener.o   
+ar: creating libTCPP2PMessenger.a
+Finished building target: libTCPP2PMessenger.a
+ 
+
+18:07:22 Build Finished (took 3s.217ms)
+

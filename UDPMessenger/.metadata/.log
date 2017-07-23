@@ -1,0 +1,22 @@
+!SESSION 2017-06-16 18:04:23.174 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=9-internal
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-16 18:07:14.090
+!MESSAGE Indexed 'SocketUtils' (8 sources, 184 headers) in 14.7 sec: 13,353 declarations; 20,760 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-16 18:07:21.592
+!MESSAGE Indexed 'TCPP2PMessenger' (4 sources, 175 headers) in 7.46 sec: 11,827 declarations; 17,658 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-16 18:07:29.809
+!MESSAGE Indexed 'TCPP2PMessengerTest' (1 sources, 171 headers) in 8.21 sec: 11,768 declarations; 17,398 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-16 18:07:36.493
+!MESSAGE Indexed 'Test' (5 sources, 182 headers) in 6.66 sec: 12,905 declarations; 20,269 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-16 18:07:41.011
+!MESSAGE Indexed 'TCPP2PMessengerCLI' (1 sources, 171 headers) in 4.5 sec: 11,774 declarations; 17,472 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

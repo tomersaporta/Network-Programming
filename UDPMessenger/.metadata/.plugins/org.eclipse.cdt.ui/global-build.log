@@ -1,0 +1,185 @@
+18:07:12 **** Clean-only build of configuration Debug for project SocketUtils ****
+make clean 
+rm -rf  ./src/File.o ./src/FileBase.o ./src/FileInterface.o ./src/MThread.o ./src/MultipleTCPSocketsListener.o ./src/Socket.o ./src/TCPSocket.o ./src/UDPSocket.o  ./src/File.d ./src/FileBase.d ./src/FileInterface.d ./src/MThread.d ./src/MultipleTCPSocketsListener.d ./src/Socket.d ./src/TCPSocket.d ./src/UDPSocket.d  libSocketUtils.a
+ 
+18:07:12 **** Build of configuration Debug for project SocketUtils ****
+make all 
+Building file: ../src/File.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/File.d" -MT"src/File.o" -o "src/File.o" "../src/File.cpp"
+Finished building: ../src/File.cpp
+ 
+Building file: ../src/FileBase.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileBase.d" -MT"src/FileBase.o" -o "src/FileBase.o" "../src/FileBase.cpp"
+../src/FileBase.cpp: In constructor ‘networkingLab::FileBase::FileBase()’:
+../src/FileBase.cpp:14:11: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+  socket_fd= NULL;
+           ^
+Finished building: ../src/FileBase.cpp
+ 
+Building file: ../src/FileInterface.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileInterface.d" -MT"src/FileInterface.o" -o "src/FileInterface.o" "../src/FileInterface.cpp"
+Finished building: ../src/FileInterface.cpp
+ 
+Building file: ../src/MThread.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MThread.d" -MT"src/MThread.o" -o "src/MThread.o" "../src/MThread.cpp"
+Finished building: ../src/MThread.cpp
+ 
+Building file: ../src/MultipleTCPSocketsListener.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MultipleTCPSocketsListener.d" -MT"src/MultipleTCPSocketsListener.o" -o "src/MultipleTCPSocketsListener.o" "../src/MultipleTCPSocketsListener.cpp"
+../src/MultipleTCPSocketsListener.cpp: In member function ‘networkingLab::TCPSocket* networkingLab::MultipleTCPSocketsListener::listenToSocket()’:
+../src/MultipleTCPSocketsListener.cpp:48:17: warning: unused variable ‘tv’ [-Wunused-variable]
+  struct timeval tv;
+                 ^
+Finished building: ../src/MultipleTCPSocketsListener.cpp
+ 
+Building file: ../src/Socket.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Socket.d" -MT"src/Socket.o" -o "src/Socket.o" "../src/Socket.cpp"
+Finished building: ../src/Socket.cpp
+ 
+Building file: ../src/TCPSocket.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TCPSocket.d" -MT"src/TCPSocket.o" -o "src/TCPSocket.o" "../src/TCPSocket.cpp"
+Finished building: ../src/TCPSocket.cpp
+ 
+Building file: ../src/UDPSocket.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UDPSocket.d" -MT"src/UDPSocket.o" -o "src/UDPSocket.o" "../src/UDPSocket.cpp"
+Finished building: ../src/UDPSocket.cpp
+ 
+Building target: libSocketUtils.a
+Invoking: GCC Archiver
+ar -r  "libSocketUtils.a"  ./src/File.o ./src/FileBase.o ./src/FileInterface.o ./src/MThread.o ./src/MultipleTCPSocketsListener.o ./src/Socket.o ./src/TCPSocket.o ./src/UDPSocket.o   
+ar: creating libSocketUtils.a
+Finished building target: libSocketUtils.a
+ 
+18:07:19 **** Clean-only build of configuration Debug for project TCPP2PMessenger ****
+make clean 
+rm -rf  ./src/TCPP2PClient.o ./src/TCPP2PMessenger.o ./src/TCPP2PServer.o ./src/TPMessengerListener.o  ./src/TCPP2PClient.d ./src/TCPP2PMessenger.d ./src/TCPP2PServer.d ./src/TPMessengerListener.d  libTCPP2PMessenger.a
+ 
+18:07:19 **** Build of configuration Debug for project TCPP2PMessenger ****
+make all 
+Building file: ../src/TCPP2PClient.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Web_developer/lab7/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TCPP2PClient.d" -MT"src/TCPP2PClient.o" -o "src/TCPP2PClient.o" "../src/TCPP2PClient.cpp"
+Finished building: ../src/TCPP2PClient.cpp
+ 
+Building file: ../src/TCPP2PMessenger.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Web_developer/lab7/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TCPP2PMessenger.d" -MT"src/TCPP2PMessenger.o" -o "src/TCPP2PMessenger.o" "../src/TCPP2PMessenger.cpp"
+Finished building: ../src/TCPP2PMessenger.cpp
+ 
+Building file: ../src/TCPP2PServer.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Web_developer/lab7/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TCPP2PServer.d" -MT"src/TCPP2PServer.o" -o "src/TCPP2PServer.o" "../src/TCPP2PServer.cpp"
+Finished building: ../src/TCPP2PServer.cpp
+ 
+Building file: ../src/TPMessengerListener.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Web_developer/lab7/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TPMessengerListener.d" -MT"src/TPMessengerListener.o" -o "src/TPMessengerListener.o" "../src/TPMessengerListener.cpp"
+Finished building: ../src/TPMessengerListener.cpp
+ 
+Building target: libTCPP2PMessenger.a
+Invoking: GCC Archiver
+ar -r  "libTCPP2PMessenger.a"  ./src/TCPP2PClient.o ./src/TCPP2PMessenger.o ./src/TCPP2PServer.o ./src/TPMessengerListener.o   
+ar: creating libTCPP2PMessenger.a
+Finished building target: libTCPP2PMessenger.a
+ 
+18:07:22 **** Clean-only build of configuration Debug for project TCPP2PMessengerCLI ****
+make clean 
+rm -rf  ./src/TCPP2PMessengerCLI.o  ./src/TCPP2PMessengerCLI.d  TCPP2PMessengerCLI
+ 
+18:07:23 **** Build of configuration Debug for project TCPP2PMessengerCLI ****
+make all 
+Building file: ../src/TCPP2PMessengerCLI.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Web_developer/lab7/TCPP2PMessenger/src" -I"/home/user/Web_developer/lab7/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TCPP2PMessengerCLI.d" -MT"src/TCPP2PMessengerCLI.o" -o "src/TCPP2PMessengerCLI.o" "../src/TCPP2PMessengerCLI.cpp"
+Finished building: ../src/TCPP2PMessengerCLI.cpp
+ 
+Building target: TCPP2PMessengerCLI
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Web_developer/lab7/TCPP2PMessenger/Debug" -L"/home/user/Web_developer/lab7/SocketUtils/Debug" -pthread -o "TCPP2PMessengerCLI"  ./src/TCPP2PMessengerCLI.o   -lTCPP2PMessenger -lSocketUtils
+Finished building target: TCPP2PMessengerCLI
+ 
+18:07:24 **** Clean-only build of configuration Debug for project TCPP2PMessengerTest ****
+make clean 
+rm -rf  ./src/TCPP2PMessengerTest.o  ./src/TCPP2PMessengerTest.d  TCPP2PMessengerTest
+ 
+18:07:25 **** Build of configuration Debug for project TCPP2PMessengerTest ****
+make all 
+Building file: ../src/TCPP2PMessengerTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Web_developer/lab7/TCPP2PMessenger/src" -I"/home/user/Web_developer/lab7/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TCPP2PMessengerTest.d" -MT"src/TCPP2PMessengerTest.o" -o "src/TCPP2PMessengerTest.o" "../src/TCPP2PMessengerTest.cpp"
+Finished building: ../src/TCPP2PMessengerTest.cpp
+ 
+Building target: TCPP2PMessengerTest
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Web_developer/lab7/TCPP2PMessenger/Debug" -L"/home/user/Web_developer/lab7/SocketUtils/Debug" -pthread -o "TCPP2PMessengerTest"  ./src/TCPP2PMessengerTest.o   -lTCPP2PMessenger -lSocketUtils
+Finished building target: TCPP2PMessengerTest
+ 
+18:07:26 **** Clean-only build of configuration Debug for project Test ****
+make clean 
+rm -rf  ./src/FileTest.o ./src/MultipleTCPSocketsListenerTester.o ./src/TCPTest.o ./src/Test.o ./src/UDPTest.o  ./src/FileTest.d ./src/MultipleTCPSocketsListenerTester.d ./src/TCPTest.d ./src/Test.d ./src/UDPTest.d  Test
+ 
+18:07:26 **** Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/FileTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Web_developer/lab7/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FileTest.d" -MT"src/FileTest.o" -o "src/FileTest.o" "../src/FileTest.cpp"
+Finished building: ../src/FileTest.cpp
+ 
+Building file: ../src/MultipleTCPSocketsListenerTester.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Web_developer/lab7/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MultipleTCPSocketsListenerTester.d" -MT"src/MultipleTCPSocketsListenerTester.o" -o "src/MultipleTCPSocketsListenerTester.o" "../src/MultipleTCPSocketsListenerTester.cpp"
+../src/MultipleTCPSocketsListenerTester.cpp: In member function ‘void networkingLab::MultipleTCPSocketsListenerTester::createClientAndSendRecvMsg(int)’:
+../src/MultipleTCPSocketsListenerTester.cpp:119:10: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (rc != message.length()){
+          ^
+Finished building: ../src/MultipleTCPSocketsListenerTester.cpp
+ 
+Building file: ../src/TCPTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Web_developer/lab7/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TCPTest.d" -MT"src/TCPTest.o" -o "src/TCPTest.o" "../src/TCPTest.cpp"
+../src/TCPTest.cpp: In member function ‘virtual void networkingLab::TCPTest::run()’:
+../src/TCPTest.cpp:56:6: warning: variable ‘rec’ set but not used [-Wunused-but-set-variable]
+  int rec;
+      ^
+Finished building: ../src/TCPTest.cpp
+ 
+Building file: ../src/Test.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Web_developer/lab7/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+../src/Test.cpp: In function ‘int main()’:
+../src/Test.cpp:43:9: warning: unknown escape sequence: '\*'
+   cout<<"\n***Multiple TCP Sockets Listener Tester PASS\***\n"<<endl;
+         ^
+../src/Test.cpp:54:9: warning: unknown escape sequence: '\*'
+   cout<<"\n***File Tester PASS\***\n"<<endl;
+         ^
+Finished building: ../src/Test.cpp
+ 
+Building file: ../src/UDPTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/user/Web_developer/lab7/SocketUtils/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UDPTest.d" -MT"src/UDPTest.o" -o "src/UDPTest.o" "../src/UDPTest.cpp"
+../src/UDPTest.cpp: In member function ‘bool networkingLab::UDPTest::test()’:
+../src/UDPTest.cpp:28:6: warning: variable ‘rec’ set but not used [-Wunused-but-set-variable]
+  int rec;
+      ^
+Finished building: ../src/UDPTest.cpp
+ 
+Building target: Test
+Invoking: GCC C++ Linker
+g++ -L"/home/user/Web_developer/lab7/SocketUtils/Debug" -pthread -o "Test"  ./src/FileTest.o ./src/MultipleTCPSocketsListenerTester.o ./src/TCPTest.o ./src/Test.o ./src/UDPTest.o   -lSocketUtils
+Finished building target: Test
+ 
+18:07:51 **** Incremental Build of configuration Debug for project SocketUtils ****
+make all 
+make: Nothing to be done for 'all'.
+18:07:51 **** Incremental Build of configuration Debug for project Test ****
+make all 
+make: Nothing to be done for 'all'.
